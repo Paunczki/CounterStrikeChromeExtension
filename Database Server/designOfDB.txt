@@ -1,0 +1,6 @@
+First things needed done, 
+  1. Need to make a file/research how to pull 
+     requests from the API I plan to use
+  2. Set up a LAMP server
+  3. Setup AJAX to pull these via "GET"
+

@@ -1,0 +1,38 @@
+*******************************************************
+How to install using this bot (using Windows 7)
+
+Plan to use this unofficial bot
+  - https://github.com/alperkaganavci/HLTV-Match-API
+It will scrape the HTML / XML from HLTV and hopefully 
+return some JSON information
+
+First I need to install some python packages
+To install python packages I need to...
+  0. Install Python 3
+  1. Open command prompt
+  2. Find the path to Python pip
+       - Try - C:/Python34/Scripts/pip
+  3. Now after this, each time do 
+     ".../pip install 'package'"
+  4. Now install these packages
+       - pip install lxml 
+       - pip install bs4
+       - pip install requests
+       - pip install tqdm
+
+To run the bot, just run the Python code
+(going to be running through Pycharm)
+
+*******************************************************
+
+Brainstorming how to and where to store
+
+I will need to find a way to use and store this data, 
+best way is to put it in a database for easy calls if 
+many people use this extension
+
+(will work on once I see actual data output)
+
+
+
+*******************************************************
