@@ -1,0 +1,20 @@
+body {
+    width: 250px;
+    height: 500px;
+    position: relative;
+    vertical-align: middle;
+    background-image: url("/extraImages/dust2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Use this to change the relative size of the popup*/
+}
+
+td,th{
+    text-align: center;
+    color: #404040;
+}
+
+h1{
+    text-align: center;
+    color: #404040;
+}

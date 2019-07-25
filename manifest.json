@@ -24,13 +24,11 @@
         "storage",
         "background",
         "tabs",
-        "http://*/*",
-        "https://*/*",
-        "http://localhost/*"
+        "alarms",
+        "notifications"
     ],
 
     "background" : {
         "scripts" : ["jquery-3.4.1.min.js", "background.js"]
-       
     }
 }
