@@ -7,16 +7,7 @@ import time
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-
-'''
-This program has been written by akagna
-GitHub @akagna
--
--
--
--
--
-'''
+# This is code that pulls the packages and etc that is needed
 
 matchlinks = []
 matchdates = []
@@ -27,12 +18,15 @@ matchbestof = []
 matchstatus = []
 teamnames = []
 match = {'matches': []}
+# these will be all my arrays of information
 
 if os.path.isfile(os.getcwd() + '/match.json'):
     os.remove(os.getcwd() + '/match.json')
 else:
     pass
 
+
+# rest of functions self explanatory based off names
 def get_source(link):
     r = requests.get(link)
     soup = BeautifulSoup(r.content, 'lxml')
