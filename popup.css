@@ -1,12 +1,11 @@
 body {
-    width: 250px;
-    height: 500px;
+    width: 230px;
+    height: 20px;
     position: relative;
     vertical-align: middle;
     background-image: url("/extraImages/dust2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* Use this to change the relative size of the popup*/
 }
 
 td,th{
@@ -14,10 +13,56 @@ td,th{
     color: #404040;
 }
 
-h1{
+h3{
     text-align: center;
+    color: #404040;
+}
+
+h4{
+    text-align:center;
     color: #404040;
 }
 
 .initiallyHidden { display: none; }
 
+.buttons {
+    margin:auto;
+    display: inline-block;
+    position:relative;
+}
+
+.matcheso{
+    padding-top:15px;
+}
+
+.statso{
+    padding-top:15px;
+}
+
+.tops10{
+    padding-top:15px;
+}
+
+.button1{
+    border: none;
+    opacity:0.8;
+    color: white;
+    background-color:#404040;
+    border-radius: 5px;
+}
+
+.button2{
+    border: none;
+    opacity:0.8;
+    color: white;
+    background-color:#404040;
+    border-radius: 5px;
+}
+
+.button3{
+    border: none;
+    opacity:0.8;
+    color: white;
+    background-color:#404040;
+    border-radius: 5px;
+}
