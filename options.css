@@ -11,10 +11,44 @@ h1{
     margin-bottom: 0px;
 }
 
+hr{
+  margin-right:20px;
+}
+
 h2{
     color:white;
     font-size: 28px;
     margin-bottom: 20px;
+}
+
+h3{
+  color:white;
+  font-size:20px;
+}
+
+.timeZone{
+  margin-left:50px;
+}
+
+.getZone{
+  color:white;
+  border:0px;
+  background-color:rgb(255, 166, 0);
+  margin-bottom: 20px;
+  font-size:16px;
+  border-radius: 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+.timeZones{
+  background-color:rgb(255, 166, 0);
+  color: white;
+  font-size:16px;
+  border:0px;
+  height:40px;
+  width:560px;
 }
 
 .fronts{
@@ -96,4 +130,3 @@ h2{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-
