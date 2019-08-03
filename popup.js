@@ -23,6 +23,7 @@ function openTop10(){
     document.getElementById("divMatches").style.display = "none";
     document.getElementById("divStats").style.display = "none";
     document.body.style.height = '450px';
+    document.body.style.backgroundImage = "url('/extraImages/dust2.png')";
 }
 
 function openMatches(){
@@ -30,6 +31,7 @@ function openMatches(){
     document.getElementById("divMatches").style.display = "block";
     document.getElementById("divStats").style.display = "none";
     document.body.style.height = '305px';
+    document.body.style.backgroundImage = "url('/extraImages/nade.png')";
 }
 
 function openStats(){
@@ -37,4 +39,5 @@ function openStats(){
     document.getElementById("divMatches").style.display = "none";
     document.getElementById("divStats").style.display = "block";
     document.body.style.height = '580px';
+    document.body.style.backgroundImage = "url('/extraImages/overpass.png')";
 }
