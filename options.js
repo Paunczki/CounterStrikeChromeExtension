@@ -1,5 +1,3 @@
-var timeZoneId
-
 $(function() {
     $("#timeZones").change(function(){
         timeZoneId = $(this).children(":selected").attr("timeZoneId");
@@ -18,10 +16,16 @@ $(function() {
     });
 });
 
+var timeZoneId;
+
+chrome.storage.local.get('timeZoneza', function(status){
+    timeZoneId=status.timeZoneza;
+})
+
 function getTimeZone(){
     chrome.storage.local.get('timeZoneza', function(status){
         timeZoneId=status.timeZoneza;
-    })
+    });
     if(timeZoneId==="1") {
         alert("Current Time Zone: "+"(GMT-12:00) International Date Line West");
     }
