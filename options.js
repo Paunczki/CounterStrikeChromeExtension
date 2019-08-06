@@ -12,8 +12,6 @@ var $sel = $("#timeZones");
 var value = $sel.val();
 var text = $("option:selected",$sel).text(); 
 
-
-
 $(function() {
     $("#getZone").click(function(){
         getTimeZone();

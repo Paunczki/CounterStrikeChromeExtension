@@ -4,6 +4,12 @@ This is an attempt to make a good Counter Strike extension so that I can get gam
 If you are installing for yourself, do not worry about "Databse Server" Folder
 Unless of course you are trying to build your own application
 
+
+# Later parts
+The Images will be uploaded to the database and most likely removed 
+They are meant to be be placeholder in case database weird
+
+
 # Notes/Work
 Plan to use 
 https://developer.valvesoftware.com/wiki/Steam_Web_API
